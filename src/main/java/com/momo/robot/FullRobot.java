@@ -3,10 +3,10 @@ package com.momo.robot;
 import javax.inject.Inject;
 
 public class FullRobot {
-    private final FireArm fireArm;
-    private final LaserArm laserArm;
-    private final PaperLeg paperLeg;
-    private final IronLeg ironLeg;
+    private final Arm fireArm;
+    private final Arm laserArm;
+    private final Leg paperLeg;
+    private final Leg ironLeg;
 
     @Inject
     public FullRobot(FireArm fireArm, LaserArm laserArm, PaperLeg paperLeg, IronLeg ironLeg){
